@@ -1,0 +1,9 @@
+c:\users\user\documents\visual studio 2015\Projects\HelloRegex\HelloRegex\bin\Debug\HelloRegex.exe.config
+c:\users\user\documents\visual studio 2015\Projects\HelloRegex\HelloRegex\bin\Debug\HelloRegex.exe
+c:\users\user\documents\visual studio 2015\Projects\HelloRegex\HelloRegex\bin\Debug\HelloRegex.pdb
+c:\users\user\documents\visual studio 2015\Projects\HelloRegex\HelloRegex\obj\Debug\HelloRegex.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2015\Projects\HelloRegex\HelloRegex\obj\Debug\HelloRegex.Form1.resources
+c:\users\user\documents\visual studio 2015\Projects\HelloRegex\HelloRegex\obj\Debug\HelloRegex.Properties.Resources.resources
+c:\users\user\documents\visual studio 2015\Projects\HelloRegex\HelloRegex\obj\Debug\HelloRegex.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2015\Projects\HelloRegex\HelloRegex\obj\Debug\HelloRegex.exe
+c:\users\user\documents\visual studio 2015\Projects\HelloRegex\HelloRegex\obj\Debug\HelloRegex.pdb
