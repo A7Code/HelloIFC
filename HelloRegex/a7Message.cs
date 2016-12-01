@@ -1,43 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+using System.Text;
+using System.Windows.Forms;
 
 namespace HelloRegex
 {
-    class a7Message
+    static class a7Message
     {
-        string _full;
-        List<Match> _find = new List<Match>();
-        public a7Message(ref string _inputString)
+        static RichTextBox _showBox;
+        public static void SetShowBox(RichTextBox _inShowBox)
         {
-            _full = _inputString;
+            _showBox = _inShowBox;
         }
 
-        public void setRegex(string _set)
+        public static void ShowMessage(string _inMessage)
         {
-            _find = new List<Match>();
-            MatchCollection getMatches = Regex.Matches(_full, _set);
-            for (int i = 0; i < getMatches.Count; i++)
-                _find.Add(getMatches[i]);
-        }
-
-        public void showSomething()
-        {
-            Console.WriteLine("Count : " + _find.Count);
-            Console.WriteLine("First : " + _find[0]);
-            Console.WriteLine("Last : " + _find.Last());
-        }
-        public void showCount()
-        {
-            Console.WriteLine(_find.Count);
-        }
-        public void showMessage()
-        {
-           for (int i = 0; i < _find.Count; i++)
-                Console.WriteLine(_find[i]);
-            Console.WriteLine();
+            _showBox.Text += _inMessage;
         }
     }
 }
